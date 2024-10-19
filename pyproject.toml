@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dreamcatcher"
+version = "0.1.0"
+description = ""
+authors = ["D15M4S <122260287+D15M4S@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.2"
+uvicorn = "^0.32.0"
+langchain = "^0.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
