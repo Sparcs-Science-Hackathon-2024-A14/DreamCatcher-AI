@@ -1,0 +1,29 @@
+# Python 관련 파일
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 가상 환경 관련 파일
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Poetry 관련 파일
+poetry.lock
+
+# .env 파일 (환경 변수 설정 파일)
+.env
+
+# IDE/Editor 관련 파일
+.vscode/
+.idea/
+
+# macOS 관련 파일
+.DS_Store
+
+# Log 파일
+*.log
